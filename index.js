@@ -109,7 +109,6 @@ const secondUser = {
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [firstUser, secondUser];
-console.log(users);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
