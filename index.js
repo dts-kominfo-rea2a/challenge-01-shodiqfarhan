@@ -94,17 +94,15 @@ const secondUser = {
     },
   ],
   favoriteRestaurant: restaurantSet
+    .add(restaurant.tempura)
     .add(restaurant.bento)
     .add(restaurant.sushi)
     .add(restaurant.pancake)
-    .add(restaurant.eggy)
-    .add(restaurant.tempura)
-    .add(restaurant.bento)
-    .add(restaurant.eggy)
     .add(restaurant.padang)
-    .add(restaurant.tteok)
-    .add(restaurant.sushi)
-    .add(restaurant.sushi),
+    .add(restaurant.katsu)
+    .add(restaurant.geprek)
+    .add(restaurant.pancake)
+    .add(restaurant.eggy),
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
