@@ -3,7 +3,9 @@
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 
 let colorSet = new Set();
+let colorSet2 = new Set();
 let restaurantSet = new Set();
+let restaurantSet2 = new Set();
 let color = {
   yellow: "Yellow",
   pink: "Pink",
@@ -70,7 +72,7 @@ const secondUser = {
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
-  favoriteColor: colorSet.add(color.blue).add(color.black).add(color.grey),
+  favoriteColor: colorSet2.add(color.blue).add(color.black).add(color.grey),
   isHavePet: "No",
   education: [
     {
@@ -93,7 +95,7 @@ const secondUser = {
       city: "Tangerang",
     },
   ],
-  favoriteRestaurant: restaurantSet
+  favoriteRestaurant: restaurantSet2
     .add(restaurant.tempura)
     .add(restaurant.bento)
     .add(restaurant.sushi)
@@ -107,6 +109,7 @@ const secondUser = {
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [firstUser, secondUser];
+console.log(users);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
