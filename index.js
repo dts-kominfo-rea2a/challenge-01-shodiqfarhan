@@ -59,11 +59,8 @@ const firstUser = {
     .add(restaurant.pancake)
     .add(restaurant.eggy)
     .add(restaurant.tempura)
-    .add(restaurant.bento)
-    .add(restaurant.eggy)
     .add(restaurant.padang)
     .add(restaurant.tteok)
-    .add(restaurant.sushi)
     .add(restaurant.sushi),
 };
 
@@ -103,7 +100,6 @@ const secondUser = {
     .add(restaurant.padang)
     .add(restaurant.katsu)
     .add(restaurant.geprek)
-    .add(restaurant.pancake)
     .add(restaurant.eggy),
 };
 
