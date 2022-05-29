@@ -66,19 +66,6 @@ const firstUser = {
     sushi: "Sushi",
     sushi: "Sushi",
   },
-  // favoriteRestaurant: [
-  //   restaurantSet.add(restaurant.bento),
-  //   restaurantSet.add(restaurant.sushi),
-  //   restaurantSet.add(restaurant.pancake),
-  //   restaurantSet.add(restaurant.eggy),
-  //   restaurantSet.add(restaurant.tempura),
-  //   restaurantSet.add(restaurant.bento),
-  //   restaurantSet.add(restaurant.eggy),
-  //   restaurantSet.add(restaurant.padang),
-  //   restaurantSet.add(restaurant.tteok),
-  //   restaurantSet.add(restaurant.sushi),
-  //   restaurantSet.add(restaurant.sushi),
-  // ],
 };
 
 const secondUser = {
@@ -120,22 +107,10 @@ const secondUser = {
     pancake: "Pancake",
     eggy: "Eggy",
   },
-  // favoriteRestaurant: [
-  //   restaurantSet2.add(restaurant.tempura),
-  //   restaurantSet2.add(restaurant.bento),
-  //   restaurantSet2.add(restaurant.sushi),
-  //   restaurantSet2.add(restaurant.pancake),
-  //   restaurantSet2.add(restaurant.padang),
-  //   restaurantSet2.add(restaurant.katsu),
-  //   restaurantSet2.add(restaurant.geprek),
-  //   restaurantSet2.add(restaurant.pancake),
-  //   restaurantSet2.add(restaurant.eggy),
-  // ],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [firstUser, secondUser];
-console.log(users);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
